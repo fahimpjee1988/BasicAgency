@@ -16,16 +16,12 @@ Farbe: #f4f4f4 / #252422 / #f9cdcd */
     src: url(../fonts/SctoGroteskA-Regular.woff2);
     
   }
-*{
-    color:#f9cdcd;
-    background:#252422;
-}
+
 
 body{
     margin:0;
     padding:0;
     font-family: aBold,aMedium,aRegular;
-    color:#f9cdcd;
 }
 
 nav {
@@ -148,10 +144,19 @@ p{
     position: relative;
 }
 
+
 .onepic{
     position: absolute;
     left: 20%;
     bottom: -100px;
+
+}
+.onepic:hover{
+    position: absolute;
+    left: 20%;
+    bottom: -120px;
+    z-index: 1;
+    filter: brightness(1.25);
 
 }
 
@@ -161,11 +166,29 @@ p{
     bottom: -300px;
 
 }
+.twopic:hover{
+    position: absolute;
+    left: 30%;
+    bottom: -300px;
+    z-index: 1;
+    filter: brightness(1.25);
+
+
+}
 
 .threepic{
     position: absolute;
     left: 40%;
     bottom: -150px;
+
+}
+.threepic:hover{
+    position: absolute;
+    left: 40%;
+    bottom: -150px;
+    z-index: 1;
+    filter: brightness(1.25);
+
 
 }
 
@@ -175,9 +198,20 @@ p{
     top: 14%;
 }
 
-.galleryover img:hover{
-    z-index:1;
+.fourpic:hover{
+    position: absolute;
+    left: 50%;
+    top: 14%;
+    z-index: 1;
+    filter: brightness(1.25);
 
+}
+
+
+#secthree{
+    padding-top: 5%;
+    color:#f9cdcd;
+    background:#252422;
 }
 
 #secthree article{
@@ -191,3 +225,256 @@ margin-top: 1%;
 margin-bottom:1%;
 
 }
+
+.flexbox{
+    display:flex;
+    justify-content: space-between;
+    font-family: aRegular;
+    padding-left: 5%;
+    padding-right: 5%;
+    color:#f9cdcd;
+    background:#252422;
+
+}
+
+
+.round1{
+    height:10px;
+    width:10px;
+    background: #f9cdcd;
+    border-radius: 100px;
+    
+}
+
+.gridsection{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,30vh);
+    padding-left:5%;
+    padding-right:5%;
+    column-gap: 4%;
+    border-bottom: 1px solid #f9cdcd; 
+    height:135vh;  
+    row-gap: 5%; 
+    text-align:center;
+    color: #f9cdcd ;
+    background: #252422;
+    
+    
+}
+
+.grid1{
+    grid-row: 1/-1;
+}
+
+.gridsection h1{
+    font-size: 55px;
+}
+
+.gridsection h4{
+    font-size:35px;
+    border-top: 1px solid #f9cdcd; 
+
+
+}
+
+.gridsection p{
+    text-align: center;
+    font-size:24px;
+    font-family: aRegular;
+
+
+}
+.gridsection p:hover{
+text-decoration: underline; 
+filter: brightness(1.75);
+}
+button{
+    color: #f9cdcd ;
+    background: #252422;
+    border: 1px solid white;
+    margin-bottom: 15%;
+    width:200px;
+    height:60px;
+    border-radius: 100px;
+    font-size:24px;
+}
+button:hover{
+    background: #f9cdcd ;
+    color: #252422;
+    border: 1px solid white;
+    margin-bottom: 15%;
+    width:200px;
+    border-radius: 100px;
+}
+
+
+.lastsection{
+    display:flex;
+    justify-content: space-evenly;
+    padding-left:5%;
+    padding-right: 5%;
+    color: #f9cdcd ;
+    background: #252422;
+
+}
+
+.lastsection div{
+   width: 50%;
+   color: #f9cdcd ;
+   background: #252422;
+   
+}
+
+.lastsection h1{
+    font-size: 45px;
+}
+
+.lastsection h2{
+    font-size: 40px;
+    font-family: aRegular;
+
+
+}
+
+.lastsection1{
+    font-family: aRegular;
+    padding-left:5%;
+    padding-right:5%;
+    position: relative;
+    color: #f9cdcd ;
+    background: #252422;
+    padding-bottom:20%;
+}
+
+.lastsection1 h1{
+   font-size:45px;
+   opacity: 0.5;
+
+}
+
+.lastsection1 h1:hover{
+    opacity: 1;
+
+}
+.lastsection1 h1:hover .displayhidden{
+    opacity: 1;
+display:block;
+}
+
+
+ 
+
+
+ .onepic1 {
+    position: absolute;
+    left: 40%;
+    bottom: 100px;
+
+}
+
+.onepic1 img{
+    width:80%;
+
+}
+
+
+
+#firstfooter{
+    color: black ;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 35vh 35vh;
+    font-family: aRegular;
+    padding-left: 5%;
+
+}
+
+#firstfooter h1{
+    background: white;
+    color: black;
+
+}
+#firstfooter ul li a {
+    background: white;
+    color: black;
+}
+#firstfooter div{
+    background: white;
+    color: black;
+}
+
+
+#firstfooter article:first-of-type{
+    grid-column: 1/ 2;
+
+}
+
+#firstfooter article:last-of-type{
+    grid-column: 2/ 3;
+    
+}
+
+
+
+
+
+
+#firstfooter a:visited{
+    color:black
+}
+
+#firstfooter a:hover{
+    background:black;
+    color:white;
+}
+
+
+
+
+#firstfooter img{
+    background: black;
+    width: 25%;
+}
+
+.displayinline{
+    display: flex;
+    align-items: center ;
+}
+
+.round2 {
+    width: 30px;
+    height:30px;
+    color: black;
+    border-radius: 100%;
+
+}
+
+input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+    margin-bottom: 15%;
+    width: 85%;
+    font-size: 24px;
+}
+
+.flexfooter{
+    display: grid;
+   
+    flex-direction: row;
+}
+
+.flexitfooter{
+    display: flex;
+flex-direction: column;}
+
+#firstfooter ul li {
+list-style: none;
+
+}
+#firstfooter ul li a{
+text-decoration: none;    
+    }

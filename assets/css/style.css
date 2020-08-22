@@ -318,9 +318,11 @@ font-family: aRegular;
 #firstfooter a:visited{
     color:white
 }
-
+#firstfooter a:active{
+    color:white
+}
 #firstfooter a:hover{
-    background:white;
+    background:grey;
     color:black;
 }
 
@@ -472,7 +474,7 @@ font-family: aRegular;
     width: 100%;
 }
 
-.videobox {
+#videobox {
     display: block;
     height: 90vh;
     margin-left: 4%;
@@ -480,3 +482,35 @@ font-family: aRegular;
     width: 90%;
     
     }
+
+.firstsec1{
+    display:flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right:5%;
+    padding-top: 10%;
+}
+
+.firstsec1 h1{
+    font-size:54px;
+    
+}
+
+.gridtext1{
+    border-bottom: 1px solid grey;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: black;
+    background: white;
+    border-top: 1px solid black;
+    padding-left:5%;
+    padding-right:5%;
+    font-size: 1.5em;
+    gap:15%
+
+
+}
+
+#firstfooter a:visited{
+    color:white
+}
