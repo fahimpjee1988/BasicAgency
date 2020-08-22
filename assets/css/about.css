@@ -1,0 +1,193 @@
+/* Font: scto-bold, scto-medium, scto-regular
+Farbe: #f4f4f4 / #252422 / #f9cdcd */
+
+@font-face {
+    font-family: aBold;
+    src: url(../fonts/SctoGroteskA-Bold.woff2);
+    
+  }
+  @font-face {
+    font-family: aMedium;
+    src: url(../fonts/SctoGroteskA-Medium.woff2);
+    
+  }
+  @font-face {
+    font-family: aRegular;
+    src: url(../fonts/SctoGroteskA-Regular.woff2);
+    
+  }
+*{
+    color:#f9cdcd;
+    background:#252422;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family: aBold,aMedium,aRegular;
+    color:#f9cdcd;
+}
+
+nav {
+    display: flex;
+justify-content: space-between;
+padding-left: 3%;
+padding-right: 3%;
+height: 5%;
+font-family: aMedium;
+background: #252422;
+color: rosybrown;
+
+
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+
+    padding-right: 10%;
+    font-size: 15px;
+    
+
+}
+
+nav ul {
+    width:90%;
+    text-align: center;
+    
+}
+
+nav li a{
+    color: #f9cdcd ;
+
+text-decoration: none;
+
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav a:visited{
+    color:#f9cdcd;
+}
+nav img:first-of-type{
+    width: 10%;
+}
+
+nav img:last-of-type{
+    width: 4%;
+}
+
+.firstsectionblackandrose{
+    color:#f9cdcd;
+background:#252422;
+border-bottom: 1px solid #f9cdcd;
+padding-bottom: 8%
+
+}
+
+.firstsectionblackandrose h1 {
+    padding:0;
+    margin:0;
+    padding-top:5%;
+    padding-left:3%;
+color:#f9cdcd;
+background:#252422;
+width: 24%;
+font-size: 54px;
+}
+
+.round{
+    height:70px;
+    width:70px;
+    background: #f9cdcd;
+    border-radius: 100px;
+    
+}
+.flex{
+    display: inline-flex;
+    padding-left: 50%
+    
+}
+.firstsectionblackandrose p{
+    font-family: aRegular;
+    width: 45%;
+    font-size: 25px;
+    padding-left: 50%
+
+}
+
+#secondsection {
+    color:#f9cdcd;
+background:#252422;
+height: 130vh;
+border-bottom: 1px solid #f9cdcd;
+
+}
+
+#secondsection img{
+    width: 55%;
+
+}
+
+p{
+    margin:0 ;
+}
+
+.firstp{
+    margin:0;
+    padding-top:30%;
+    padding-left:5%;
+    width:12%;
+    font-size: 12px;
+
+}
+
+.galleryover{
+    position: relative;
+}
+
+.onepic{
+    position: absolute;
+    left: 20%;
+    bottom: -100px;
+
+}
+
+.twopic{
+    position: absolute;
+    left: 30%;
+    bottom: -300px;
+
+}
+
+.threepic{
+    position: absolute;
+    left: 40%;
+    bottom: -150px;
+
+}
+
+.fourpic{
+    position: absolute;
+    left: 50%;
+    top: 14%;
+}
+
+.galleryover img:hover{
+    z-index:1;
+
+}
+
+#secthree article{
+border-bottom: 1px solid #f9cdcd;    
+}
+
+#secthree article img{
+width: 30%;
+padding-left: 5%;
+margin-top: 1%;
+margin-bottom:1%;
+
+}
