@@ -296,7 +296,7 @@ font-family: aRegular;
     grid-template-rows: 35vh 35vh;
     font-family: aRegular;
     padding-left: 5%;
-    height:80vh
+    height:120vh
 
 }
 
@@ -490,6 +490,7 @@ font-family: aRegular;
     padding-left: 5%;
     padding-right:5%;
     padding-top: 10%;
+    
 }
 
 .firstsec1 h1{
@@ -527,7 +528,7 @@ font-family: aRegular;
 }
 
 #contactsection img{
-    width: 400px;
+    width: 500px;
 
     padding-left: 15%;
     padding-right: 15%;
