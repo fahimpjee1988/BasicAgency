@@ -296,6 +296,7 @@ font-family: aRegular;
     grid-template-rows: 35vh 35vh;
     font-family: aRegular;
     padding-left: 5%;
+    height:80vh
 
 }
 
@@ -514,3 +515,115 @@ font-family: aRegular;
 #firstfooter a:visited{
     color:white
 }
+#contactsection {
+    padding-right: 5%;
+    border-bottom: 1px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#contactsection h1{
+    font-size:75px;
+}
+
+#contactsection img{
+    width: 400px;
+
+    padding-left: 15%;
+    padding-right: 15%;
+
+    margin-bottom:15%;
+    margin-right:5%;
+}
+.gridtextlast{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 2%;
+}
+
+.gridtextlast div:first-of-type{
+    grid-row: 1/-1;
+}
+
+#contactsection{
+    display:flex
+    
+}
+.flexbox1{
+    display:flex;
+    justify-content: space-between;
+    font-family: aRegular;
+    padding-left: 5%;
+    padding-right: 5%;
+    color:black;
+    background: white;
+
+}
+.round3{
+    height: 4vh;
+    width: 30px;
+    border-radius: 100%;
+    background: black;
+}
+
+#gridpicstext{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, 40vh);
+    height: 140vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    row-gap: 5% ;
+    
+
+    
+}
+.flexandfun {
+    display:flex;
+    justify-content: space-between;
+}
+#gridpicstext img,p{
+    width:250px
+}
+
+#gridpicstext p{
+    width:50px
+}
+
+#gridpicstext h1{
+font-size: 55px;
+}
+#gridpicstext div:nth-of-type(1){
+    grid-column: 1/2 ;
+    grid-row:1/-1;
+    border-right: 1px solid black;
+    margin-right:2%;
+}
+
+#gridpicstext div:nth-of-type(2){
+    grid-column: 2/3 ;
+    grid-row:1/2;
+    border-bottom: 1px solid black
+}
+#gridpicstext div:nth-of-type(3){
+    grid-column: 3/-1 ;
+    grid-row:1/2;
+    border-bottom: 1px solid black
+}
+#gridpicstext div:nth-of-type(4){
+    grid-column: 2/3 ;
+    grid-row:2/3;
+    border-bottom: 1px solid black}
+
+    #gridpicstext div:nth-of-type(5){
+        
+        border-bottom: 1px solid black}
+    
+        #gridpicstext div:nth-of-type(6){
+        
+            border-bottom: 1px solid black}
+
+        #gridpicstext div:nth-of-type(7){
+        
+            border-bottom: 1px solid black}
+        

@@ -4,5 +4,9 @@ function firstpage(){
 }
 
 function lastpage(){
-    console.log("test")
+    window.location.href="side.html"
+}
+
+function backto(){
+    window.location.href="contact.html"
 }

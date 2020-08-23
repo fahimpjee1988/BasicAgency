@@ -117,8 +117,9 @@ font-size: 54px;
 #secondsection {
     color:#f9cdcd;
 background:#252422;
-height: 130vh;
+height: 70vh;
 border-bottom: 1px solid #f9cdcd;
+height: 125vh;
 
 }
 
@@ -238,7 +239,8 @@ margin-bottom:1%;
 }
 
 
-.round1{
+
+.round2{
     height:10px;
     width:10px;
     background: #f9cdcd;
@@ -254,8 +256,8 @@ margin-bottom:1%;
     padding-right:5%;
     column-gap: 4%;
     border-bottom: 1px solid #f9cdcd; 
-    height:135vh;  
-    row-gap: 5%; 
+    height:145vh;  
+    row-gap: 3%; 
     text-align:center;
     color: #f9cdcd ;
     background: #252422;
@@ -268,7 +270,7 @@ margin-bottom:1%;
 }
 
 .gridsection h1{
-    font-size: 55px;
+    font-size: 45px;
 }
 
 .gridsection h4{
@@ -280,7 +282,7 @@ margin-bottom:1%;
 
 .gridsection p{
     text-align: center;
-    font-size:24px;
+    font-size:19px;
     font-family: aRegular;
 
 
@@ -345,11 +347,13 @@ button:hover{
     color: #f9cdcd ;
     background: #252422;
     padding-bottom:20%;
+   
 }
 
 .lastsection1 h1{
    font-size:45px;
    opacity: 0.5;
+   margin:0;
 
 }
 
@@ -368,41 +372,27 @@ display:block;
 
  .onepic1 {
     position: absolute;
-    left: 40%;
+    left: 50%;
     bottom: 100px;
 
 }
 
 .onepic1 img{
-    width:80%;
+    width:70%;
 
 }
 
 
 
 #firstfooter{
-    color: black ;
-    background: white;
+    background: white ;
+    color: #252422;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 35vh 35vh;
     font-family: aRegular;
     padding-left: 5%;
 
-}
-
-#firstfooter h1{
-    background: white;
-    color: black;
-
-}
-#firstfooter ul li a {
-    background: white;
-    color: black;
-}
-#firstfooter div{
-    background: white;
-    color: black;
 }
 
 
@@ -424,9 +414,11 @@ display:block;
 #firstfooter a:visited{
     color:black
 }
-
+#firstfooter a{
+    color:black
+}
 #firstfooter a:hover{
-    background:black;
+    background:grey;
     color:white;
 }
 
@@ -443,10 +435,59 @@ display:block;
     align-items: center ;
 }
 
-.round2 {
+.round1 {
     width: 30px;
     height:30px;
-    color: black;
+    background: black;
+    border-radius: 100%;
+
+}
+
+input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+    margin-bottom: 15%;
+    width: 85%;
+    font-size: 24px;
+}
+
+.flexfooter{
+    display: grid;
+   
+    flex-direction: row;
+}
+
+.flexitfooter{
+    display: flex;
+flex-direction: column;}
+
+#firstfooter ul li {
+list-style: none;
+
+}
+#firstfooter ul li a{
+text-decoration: none;    
+    }
+
+
+.displayinline{
+    display: flex;
+    align-items: center ;
+}
+
+.round1 {
+    width: 30px;
+    height:30px;
+    background: black;
+    border-radius: 100%;
+
+}
+.round1 {
+    width: 30px;
+    height:30px;
+    background: black;
     border-radius: 100%;
 
 }
